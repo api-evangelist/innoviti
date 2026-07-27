@@ -1,9 +1,32 @@
 aid: innoviti
 name: Innoviti
-description: 'Innoviti is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Innoviti Technologies Pvt. Ltd. is a Bengaluru-based payment technology company and
+  RBI-authorized payment aggregator (online and, since January 2026, in-store) operating
+  under India's Payment & Settlements Act 2007. Founded in 2002, Innoviti builds
+  collections, reconciliation, and revenue-assurance infrastructure for large organized
+  retail. Its products include innoviti unipay (an enterprise payment and reconciliation
+  platform for omnichannel settlements and leakage control), innoviti genie (a sales
+  acceleration and dealer-margin platform for mobile and electronics retail), and innoviti
+  link (a POS-free mobile collection app accepting cards, UPI, and EMI). The company serves
+  enterprise retailers including Samsung, Reliance Retail, Tanishq, Shoppers Stop, and More
+  Retail, holds multiple payment-communication patents, and maintains PCI DSS, PCI P2PE, and
+  PCI PIN certifications. Added to the API Evangelist network as a fintech portfolio lead;
+  no public developer portal, OpenAPI, or self-serve API documentation was found during
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/innoviti/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://innoviti.com/Innoviti-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Payments
+- Payment Aggregator
+- Point of Sale
+- Retail
+- UPI
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://innoviti.com/
+- type: Blog
+  url: https://innoviti.com/blogs
+- type: Support
+  url: https://innoviti.com/contact/
+- type: PrivacyPolicy
+  url: https://innoviti.com/privacy-policy/
+- type: Login
+  url: https://sparcs.innoviti.com/
+- type: DomainSecurity
+  url: security/innoviti-domain-security.yml
+- type: Conformance
+  url: conformance/innoviti-conformance.yml
+- type: Compliance
+  url: https://innoviti.com/about-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

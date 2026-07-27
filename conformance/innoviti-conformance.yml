@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: https://innoviti.com/about-us
+notes: >-
+  Compliance posture as published on Innoviti's public About / company pages. Innoviti
+  Technologies Pvt. Ltd. is an RBI-authorized payment aggregator (online and, as of Jan
+  2026, in-store) operating under India's Payment & Settlements Act 2007, and states it
+  holds PCI DSS, PCI P2PE, and PCI PIN certifications. No public OpenAPI is available to
+  derive cross-cutting API standards (OAuth2/OIDC/RFC 9457/etc.), so only searched
+  compliance claims are recorded here.
+standards:
+  - id: pci-dss
+    conforms: true
+    evidence: Innoviti publicly states PCI DSS compliance certification.
+    source: https://innoviti.com/about-us
+  - id: pci-p2pe
+    conforms: true
+    evidence: Innoviti publicly states PCI P2PE (Point-to-Point Encryption) certification.
+    source: https://innoviti.com/about-us
+  - id: pci-pin
+    conforms: true
+    evidence: Innoviti publicly states PCI PIN compliance certification.
+    source: https://innoviti.com/about-us
+  - id: rbi-payment-aggregator
+    conforms: true
+    evidence: >-
+      RBI-authorized payment aggregator for online payments; authorization expanded to
+      include physical (in-store) payments in Jan 2026, under the Payment & Settlements
+      Act 2007.
+    source: https://innoviti.com/press-release
